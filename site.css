@@ -1,0 +1,233 @@
+
+.indexPage {
+  display: grid;
+  grid-template-areas:
+    'header1 header1 header2 header3 header4 header5 header5 header6'
+    'body1 body1 body1 body1 body1 body1 body2 body2'
+    'footer footer footer footer footer footer footer footer'; 
+    grid-gap: 10px;
+    padding: 5px;
+    font-family: sans-serif; 
+}
+
+.loginPage {
+  display: grid;
+  grid-template-areas:
+    'header1 header1 header2 header3 header4 header5 header5 header6'
+    'body body body body body body body body'
+    'footer footer footer footer footer footer footer footer'; 
+    grid-gap: 10px;
+    padding: 5px;
+    font-family: sans-serif; 
+}
+
+.imgDim{
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+
+.headerCol1 { 
+  grid-area: header1; 
+  background-color: lightgray;
+  height: 35px;     
+  font-weight: bolder;
+  font-size: x-large;
+  text-align:center;
+  padding: 2px;
+}
+
+.headerCol2 { 
+  grid-area: header2; 
+  background-color: lightgray;
+  height: 35px;
+  font-weight: bolder;
+  font-size: x-large;
+  text-align:center;
+  padding: 2px;
+}
+
+.headerCol3 { 
+  grid-area: header3; 
+  background-color: lightgray;
+  height: 35px;
+  font-weight: bolder;
+  font-size: x-large;
+  text-align:center;
+  padding: 2px;
+}
+
+.headerCol4 { 
+  grid-area: header4; 
+  background-color: lightgray;
+  height: 35px;
+  font-weight: bolder;
+  font-size: x-large;
+  text-align:center;
+  padding: 2px;
+}
+
+.headerCol5 { 
+  grid-area: header5; 
+  background-color: lightgray;
+  height: 35px;
+  font-weight: bolder;
+  font-size: x-large;
+  text-align:center;
+  padding: 2px;
+}
+
+.headerCol6 { 
+  grid-area: header6; 
+  background-color: lightgray;
+  height: 35px;
+  font-weight: bolder;
+  font-size: x-large;
+  text-align:center;
+  padding: 2px;
+}
+
+.body{
+  display: grid; 
+  grid-area: body; 
+  grid-template-areas:
+    'loginHeader'
+    'loginForm';
+  background-color: lightsalmon;
+  height: 949px;
+  text-align:left;
+  padding: 50px;  
+}
+
+.loginHeader{
+  grid-area: loginHeader; 
+  background-color: lightgray;
+  height: 50px;  
+  text-align:center;
+  font-weight: bolder;
+  font-size: 40px;
+  padding: 10px;  
+}
+
+.loginForm{
+  grid-area: loginForm; 
+  background-color: lightgray;
+  height: 700px;
+  font-weight: 500;
+  text-align: left;
+  padding: 10px;  
+}
+
+.loginTable{
+ margin-top: 200px;
+ margin-bottom: 200px;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.body1 { 
+  display: grid;
+  grid-area: body1; 
+  grid-template-areas:
+    'body1MainHeader body1MainHeader '
+    'body1SubText body1SubText' 
+    'body1Article1 body1Article2';
+  background-color: lightsalmon;
+  height: 949px;
+  text-align:left;
+  padding: 50px;
+}
+
+.body1MainHeader{
+  grid-area: body1MainHeader; 
+  background-color: lightgrey;
+  height: 50px;
+  font-weight: bolder;
+  font-size: xx-large;
+  text-align:left;
+  padding: 10px;
+}
+
+.body1SubText{
+  grid-area: body1SubText; 
+  background-color: lightgrey;
+  height: 190px;
+  font-weight: bold;
+  font-size: x-large;
+  text-align:left;
+  padding: 10px;
+}
+
+.body1Article1{
+  grid-area: body1Article1; 
+  background-color: lightgrey;
+  height: 600px;
+  padding: 10px;
+}
+
+.body1Article1Para2{
+  color: blue;
+  font-weight: bold;
+}
+
+.body1Article2{
+  grid-area: body1Article2; 
+  background-color:lightgrey;  
+  height: 600px;
+  padding: 10px;
+}
+
+.body2 { 
+  display: grid;
+  grid-area: body2;
+  grid-template-areas:
+    'body2Header body2Header '     
+    'body2Article body2Article';
+  background-color: olivedrab;
+  height: 949px;
+  text-align:left;
+  padding: 50px;
+ }
+
+ .body2Header{
+  grid-area: body2Header; 
+  background-color:lightgrey;
+  height: 100px;
+  padding: 10px;
+  font-weight: normal;
+  font-size: large;
+  text-align:left;
+}
+
+.body2Article{
+  grid-area: body2Article; 
+  background-color:lightgrey;
+  height: 790px;
+  padding: 10px;
+  font-weight: normal;
+  font-size: large;
+  text-align:left;
+}
+
+.body2ArticlePara1{
+  color:red
+}
+
+.body2ArticlePara2{
+  color:green
+}
+
+.footer{ 
+  grid-area: footer; 
+  background-color: lightyellow;
+  height: 25px;
+  font-weight: lighter;
+  font-size: small;
+  text-align:center;  
+}
+
+
+
+
+  
